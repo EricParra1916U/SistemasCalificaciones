@@ -6,6 +6,7 @@
 package ec.edu.ups.principales;
 
 import ec.edu.ups.clases.Estudiante;
+import ec.edu.ups.clases.Sede;
 
 /**
  *
@@ -16,7 +17,9 @@ public class Incio {
     public static void main (String []args )
     {
      //Estudiante obj = new Estudiante();
-        //holll
+     Sede sedeCuenca = new Sede(1,"Sede Cuenca","Calle vieja","65464646");
+     
+     
         
         
     }

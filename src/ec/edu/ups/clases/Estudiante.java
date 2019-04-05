@@ -9,12 +9,9 @@ package ec.edu.ups.clases;
  *
  * @author erics
  */
-public class Estudiante {
+public class Estudiante extends Persona{
     
      private Carrera carrera;
-
-   
-    
     public void setCarrera (Carrera carrera)
     {
         this.carrera = carrera;
@@ -24,7 +21,22 @@ public class Estudiante {
     {
         return this.carrera;
     }
-    
+    public String toString() {
+        return "Estudiante{" + "carrera=" + carrera + '}';
+    }
+
+    public Estudiante(int codigo) {
+        super(codigo);
+    }
+
+    public Estudiante(int codigo, String nombre, String cedula) {
+        super(codigo, nombre, cedula);
+    }
+
+    public Estudiante(int codigo, String nombre, String cedula, String telefono, String direccion, String correo, Sede sede) {
+        super(codigo, nombre, cedula, telefono, direccion, correo, sede);
+        this.setCarrera(carrera);
+    }
     
     
 }

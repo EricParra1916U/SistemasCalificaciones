@@ -9,16 +9,16 @@ package ec.edu.ups.clases;
  *
  * @author erics
  */
-public class Profesor {
+public class Profesor  extends Persona{
     
-    private String tiutlo;
+    private String titulo;
     private Double salario;
     private String cargo;
     
     
     public void setTitulo(String titulo)
     {
-        this.tiutlo=titulo;
+        this.titulo=titulo;
     }
      public void setSalario(Double salario)
     {
@@ -30,7 +30,7 @@ public class Profesor {
     }
     public String getTitulo()
     {
-        return this.tiutlo;
+        return this.titulo;
     }
     public Double getSalario()
     {
@@ -39,5 +39,12 @@ public class Profesor {
     public String getCargo()
     {
         return this.cargo;
+    }
+    
+     public Profesor(String titulo, double salario, String cargo, int codigo, String nombre, String cedula, String telefono, String direccion, String correo, Sede sede) {
+        super(codigo, nombre, cedula, telefono, direccion, correo, sede);
+        this.titulo = titulo;
+        this.salario = salario;
+        this.cargo = cargo;
     }
 }

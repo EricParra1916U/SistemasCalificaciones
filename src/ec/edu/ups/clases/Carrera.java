@@ -5,6 +5,8 @@
  */
 package ec.edu.ups.clases;
 
+import java.util.List;
+
 
 
 /**
@@ -14,7 +16,7 @@ package ec.edu.ups.clases;
 public class Carrera {
     private int codigo;
     private String nombre;
-//  private List materia
+    private List<Materia> materia;
     private int numeroSemestre;
     private int numeroEstudiante;
     private String titulo;
@@ -61,6 +63,16 @@ public class Carrera {
     {
         return this.titulo;
     }
+
+    public Carrera(int codigo, String nombre, int numeroSemestre, int numeroEstudiante, String titulo) {
+        this.codigo = codigo;
+        this.nombre = nombre;
+        this.numeroSemestre = numeroSemestre;
+        this.numeroEstudiante = numeroEstudiante;
+        this.titulo = titulo;
+    }
+    
+    
     
     
 }

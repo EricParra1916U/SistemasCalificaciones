@@ -80,6 +80,17 @@ public class Materia {
          return this.profesor;
      }
 
+    public Materia(int codigo, String nombre, int numeroCreditos, int numeroHoras, int nivel) {
+        this.codigo = codigo;
+        this.nombre = nombre;
+        this.numeroCreditos = numeroCreditos;
+        this.numeroHoras = numeroHoras;
+        this.nivel = nivel;
+    }
+
+     
+     
+     
 }
 
 

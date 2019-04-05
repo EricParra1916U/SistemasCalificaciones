@@ -60,6 +60,13 @@ public class Sede {
     {
         return this.carreras;
     }
+
+    public Sede(int codigo, String nombre, String direccion, String telefono) {
+        this.codigo = codigo;
+        this.nombre = nombre;
+        this.direccion = direccion;
+        this.telefono = telefono;
+    }
     
     
 }

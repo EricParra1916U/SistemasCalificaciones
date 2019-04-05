@@ -36,7 +36,7 @@ public class Incio {
      Estudiante es2= new Estudiante(2,"Erick","010246654","0996568236","Cuenca","ericsebas.2i@gmail.com");
      Estudiante es3=new Estudiante(3,"Carlos","011555555","0984165488","Jadan","calor21.i@gmail.com");
      Estudiante es4= new Estudiante(2,"Ronal","084161644","0231555445","Azoguez","ronale1.2i@gmail.com");
-        
+        ///
         
     }
     

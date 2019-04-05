@@ -12,6 +12,10 @@ package ec.edu.ups.clases;
 public class Estudiante {
     
      private Carrera carrera;
+
+    public Estudiante() {
+        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
+    }
     
     public void setCarrera (Carrera carrera)
     {
@@ -21,6 +25,11 @@ public class Estudiante {
     public Carrera getCarrera()
     {
         return this.carrera;
+    }
+    
+    public Estudiante(int codigo)
+    {
+       
     }
     
 }

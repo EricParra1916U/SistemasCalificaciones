@@ -12,7 +12,7 @@ package ec.edu.ups.clases;
 public class Profesor  extends Persona{
     
     private String titulo;
-    private Double salario;
+    private double salario;
     private String cargo;
     
     
@@ -46,5 +46,13 @@ public class Profesor  extends Persona{
         this.titulo = titulo;
         this.salario = salario;
         this.cargo = cargo;
+    }
+    public double getSalario(int horasTrabajadas,double valorPorHora)
+    {
+        return salario + horasTrabajadas+valorPorHora;
+    }
+    public double getSalario(double comision)
+    {
+        return comision;
     }
 }

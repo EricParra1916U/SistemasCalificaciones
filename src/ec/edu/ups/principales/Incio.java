@@ -17,6 +17,7 @@ public class Incio {
     {
         Estudiante obj = new Estudiante();
         
+        
     }
     
 }

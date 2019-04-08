@@ -67,6 +67,10 @@ public class Sede {
         this.direccion = direccion;
         this.telefono = telefono;
     }
+
+    public void addCarrera(Carrera carrera) {
+        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
+    }
     
     
 }

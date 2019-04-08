@@ -37,6 +37,10 @@ public class Estudiante extends Persona{
         super(codigo, nombre, cedula, telefono, direccion, correo);
         this.setCarrera(carrera);
     }
+
+    public void addHistorialCalificaciones(HistorialCalificaciones h) {
+        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
+    }
     
     
 }

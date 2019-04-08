@@ -71,8 +71,9 @@ public class Carrera {
         this.numeroEstudiante = numeroEstudiante;
         this.titulo = titulo;
     }
-    
-    
-    
+
+    public void addMateria(Materia ma1) {
+        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
+    }
     
 }

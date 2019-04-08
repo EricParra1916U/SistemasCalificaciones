@@ -17,6 +17,7 @@ public class HistorialCalificaciones {
     private int examen;
     private int aprovechamineto2;
     private int examen2;
+   
     
     
     public void setMateria(Materia materia)
@@ -69,5 +70,13 @@ public class HistorialCalificaciones {
      {
          return this.examen2;
      }
-    
+
+    public HistorialCalificaciones( int aprovechamiento, int examen, int aprovechamineto2, int examen2) {
+        this.aprovechamiento = aprovechamiento;
+        this.examen = examen;
+        this.aprovechamineto2 = aprovechamineto2;
+        this.examen2 = examen2;
+        //this.materia = materia;,Materia materia
+    }
+
 }

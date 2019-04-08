@@ -88,6 +88,10 @@ public class Materia {
         this.nivel = nivel;
     }
 
+    public void addGrupo(Grupo g) {
+        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
+    }
+
      
      
      

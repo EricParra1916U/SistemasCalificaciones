@@ -28,7 +28,7 @@ public class Incio {
      Carrera carrera = new Carrera(1, "Mecatronica",1,12,"Ingeniero");
      Carrera car = new Carrera (2,"Computacion",2,14,"Sistematico");
      Carrera ca = new Carrera (3,"Psicologia",13,15,"Loquero");
-     //Agregar carrera a sede
+     //Agregar carrera a sede ss
      sedeCuenca.addCarrera(carrera);
      sedeCuenca.addCarrera(car);
      sedeCuenca.addCarrera(ca);

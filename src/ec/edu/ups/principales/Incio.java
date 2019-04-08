@@ -53,11 +53,12 @@ public class Incio {
      Estudiante es3=new Estudiante(3,"Carlos","011555555","0984165488","Jadan","calor21.i@gmail.com");
      Estudiante es4= new Estudiante(2,"Ronal","084161644","0231555445","Azoguez","ronale1.2i@gmail.com");
         ///Grupo 
-      Grupo g = new Grupo(1,"Inicial",30);
-      Grupo g2 = new Grupo(2,"UPS",40);
-      Grupo g3 = new Grupo(3,"SALESIANA",60);   
-      ma1.addGrupo(g);
-      ma2.addGrupo(g2);
+     Grupo g = new Grupo(1,"Inicial",30);
+     Grupo g2 = new Grupo(2,"UPS",40);
+     Grupo g3 = new Grupo(3,"SALESIANA",60);   
+     //Agregar grupo a materias
+     ma1.addGrupo(g);
+     ma2.addGrupo(g2);
       // Profesores 
       Profesor p1= new Profesor("Ingeniero en Sistemas",320,"Profesor de Electronica",1,"Paola Ingavelez","0102262649","09986151","Cuenca","poal1@gmail.com");
       Profesor p2= new Profesor("Ingeniero Industrial ",320,"Profesor",2,"Adrian Ñauta","016491545","09987116","Guayaquil","adrianÑ@gmail.com");
@@ -72,7 +73,8 @@ public class Incio {
       es3.addHistorialCalificaciones(h3);
       es4.addHistorialCalificaciones(h4);
       
-        System.out.println(sedeCuenca);
+        //System.out.println(sedeCuenca);
+        System.out.println(ma1);
         System.out.println(es);
         System.out.println(es2);
         System.out.println(es3);

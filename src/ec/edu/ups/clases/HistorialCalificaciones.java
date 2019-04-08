@@ -77,6 +77,13 @@ public class HistorialCalificaciones {
         this.aprovechamineto2 = aprovechamineto2;
         this.examen2 = examen2;
         //this.materia = materia;,Materia materia
+     
     }
+
+    @Override
+    public String toString() {
+        return "HistorialCalificaciones{" + "aprovechamiento=" + aprovechamiento + ", examen=" + examen + ", aprovechamineto2=" + aprovechamineto2 + ", examen2=" + examen2 + '}';
+    }
+    
 
 }

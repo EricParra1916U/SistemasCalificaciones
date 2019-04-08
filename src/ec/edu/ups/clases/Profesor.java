@@ -55,4 +55,10 @@ public class Profesor  extends Persona{
     {
         return comision;
     }
+
+    @Override
+    public String toString() {
+        return "Profesor{" + "titulo=" + titulo + ", salario=" + salario + ", cargo=" + cargo + '}';
+    }
+    
 }

@@ -48,5 +48,10 @@ public class Grupo {
         this.nombre = nombre;
         this.cupo = cupo;
     }
+
+    @Override
+    public String toString() {
+        return "Grupo{" + "codigo=" + codigo + ", nombre=" + nombre + ", cupo=" + cupo + '}';
+    }
     
 }
